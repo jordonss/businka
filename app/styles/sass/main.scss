@@ -7,6 +7,11 @@
 @import './node_modules/@glidejs/glide/src/assets/sass/glide.core';
 @import './node_modules/@glidejs/glide/src/assets/sass/glide.theme';
 
+@font-face {
+	font-family: "raisonne";
+	src: url('/../fonts/Raisonne\ DemiBold.woff2');
+}
+
 //preloader
 
 .preloader {
@@ -315,7 +320,7 @@ a.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Raisonne", serif;
+  font-family: "raisonne";
   font-size: 200px;
   color: #FFA5A5;
   -webkit-text-stroke: 5px  #000;
