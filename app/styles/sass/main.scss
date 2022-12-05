@@ -1134,6 +1134,10 @@ a.main {
 
 @media (max-width: 767.98px) {
 
+  .fd-wrapper .container {
+    width: 50%;
+  }
+
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
@@ -1146,10 +1150,10 @@ a.main {
   }
   
   .first-date-title {
-    font-size: 70px;
+    font-size: 55px;
     color: #00CFA2;
     -webkit-text-stroke: 2px  #000;
-    line-height: 100px;
+    line-height: 60px;
     margin-bottom: 5px;
   }
 
@@ -1177,12 +1181,64 @@ a.main {
     margin-left: 10px;
   }
 
+  .first-date-img img {
+    margin-left: 15px;
+  }
 
 }
 
 @media (max-width: 575.98px) {
 
+  .fd-wrapper .container {
+    width: 50%;
+  }
 
+  .first-date-title-wrapper {
+    display: flex;
+    justify-content: center;
+    min-width: 280px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-title {
+    font-size: 50px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 60px;
+    margin-bottom: 5px;
+  }
+
+  .first-date-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+    max-width: 300px;
+    min-height: 150px;
+    margin: 30px 5px auto 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-text {
+    font-size: 18px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .first-date-img img {
+    margin-left: 10px;
+  }
 
 }
 
