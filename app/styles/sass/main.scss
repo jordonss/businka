@@ -988,22 +988,10 @@ a.main {
   width: 100%;
 }
 
-// .first-date-bgi {
-//   background-image: url('../images/src/first_date.png');
-//   position: relative;
-//   display: flex;
-//   min-width: 1550px;
-//   min-height: 880px;
-//   background-size: 80%;
-//   background-position: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
-
 .first-date-title-wrapper {
   display: flex;
   justify-content: center;
-  min-width: 500px;
+  max-width: 600px;
   margin: 30px auto auto 30px;
   background-color: #fff;
   border: 5px solid #000;
@@ -1048,6 +1036,154 @@ a.main {
   line-height: 60px;
   padding: 10px;
   margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+
+  .first-date-title-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 15px 15px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-title {
+    font-size: 90px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 110px;
+    margin-bottom: 5px;
+  }
+
+  .first-date-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    max-width: 525px;
+    min-height: 260px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-text {
+    font-size: 36px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 45px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .first-date-title-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-title {
+    font-size: 65px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 90px;
+    margin-bottom: 5px;
+  }
+
+  .first-date-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    max-width: 425px;
+    min-height: 210px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-text {
+    font-size: 28px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 35px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .first-date-title-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 380px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-title {
+    font-size: 70px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 100px;
+    margin-bottom: 5px;
+  }
+
+  .first-date-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    max-width: 425px;
+    min-height: 210px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-text {
+    font-size: 28px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 35px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+
+}
+
+@media (max-width: 575.98px) {
+
+
+
 }
 
 // first kiss & sex section
