@@ -832,10 +832,6 @@ a.main {
 
 .start-car {
   display: flex;
-  // position: absolute;
-  // top: 50%;
-  // left: 17%;
-  // margin: auto;
   justify-content: flex-end;
 }
 
@@ -936,7 +932,7 @@ a.main {
     background-color: #fff;
     border: 5px solid #000;
     border-radius: 60px;
-    box-shadow: 15px 15px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
 
 }
@@ -1111,8 +1107,8 @@ a.main {
     justify-content: center;
     position: absolute;
     bottom: 30px;
-    right: 30px;
-    max-width: 425px;
+    right: 15px;
+    max-width: 400px;
     min-height: 210px;
     margin: 30px auto auto 30px;
     background-color: #fff;
@@ -1128,6 +1124,10 @@ a.main {
     line-height: 35px;
     padding: 10px;
     margin-left: 10px;
+  }
+
+  .first-date-img img {
+    margin-left: 15px;
   }
 
 }
@@ -1162,7 +1162,7 @@ a.main {
     justify-content: center;
     position: absolute;
     bottom: 30px;
-    right: 30px;
+    right: 5px;
     max-width: 425px;
     min-height: 210px;
     margin: 30px auto auto 30px;
@@ -1196,7 +1196,7 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    min-width: 280px;
+    min-width: 180px;
     margin: 30px auto auto 30px;
     background-color: #fff;
     border: 3px solid #000;
@@ -1205,10 +1205,10 @@ a.main {
   }
   
   .first-date-title {
-    font-size: 50px;
+    font-size: 40px;
     color: #00CFA2;
-    -webkit-text-stroke: 2px  #000;
-    line-height: 60px;
+    -webkit-text-stroke: 1.5px  #000;
+    line-height: 50px;
     margin-bottom: 5px;
   }
 
@@ -1216,9 +1216,9 @@ a.main {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: 5px;
-    max-width: 300px;
+    max-width: 250px;
     min-height: 150px;
     margin: 30px 5px auto 30px;
     background-color: #fff;
@@ -1230,7 +1230,7 @@ a.main {
   .first-date-text {
     font-size: 18px;
     color: #00CFA2;
-    -webkit-text-stroke: 1px  #000;
+    -webkit-text-stroke: 0.5px  #000;
     line-height: 20px;
     padding: 10px;
     margin-left: 10px;
@@ -1241,6 +1241,54 @@ a.main {
   }
 
 }
+
+@media (max-width: 414px) {
+
+  .first-date-title-wrapper {
+    display: flex;
+    justify-content: center;
+    min-width: 130px;
+    margin: 20px auto auto 20px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-title {
+    font-size: 30px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .first-date-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    max-width: 150px;
+    min-height: 150px;
+    margin: 30px 5px auto 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .first-date-text {
+    font-size: 16px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 20px;
+    padding: 15px;
+    margin-left: 10px;
+  }
+
+}
+
 
 // first kiss & sex section
 
@@ -1259,7 +1307,7 @@ a.main {
 .kiss-title-wrapper {
   display: flex;
   justify-content: center;
-  min-width: 500px;
+  max-width: 500px;
   height: auto;
   margin: 30px 30px auto auto;
   background-color: #fff;
@@ -1298,6 +1346,63 @@ a.main {
   line-height: 50px;
   padding: 10px;
   margin-left: 10px;
+}
+
+@media (max-width: 414px) {
+
+  .kiss-img {
+    width: 50%;
+  }
+
+  .kiss-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    height: auto;
+    margin: 30px 30px auto auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .kiss-title {
+    font-size: 24px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 130px;
+    margin-bottom: 5px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    max-width: 145px;
+    min-height: 260px;
+    margin: 30px auto auto 30px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 60px;
+    box-shadow: 15px 15px rgba(0,0,0,0.4);
+  }
+  
+  .kiss-text {
+    font-size: 16px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
 }
 
 .sex-wrapper {
