@@ -1028,7 +1028,7 @@ a.main {
 .first-date-text {
   font-size: 48px;
   color: #00CFA2;
-  -webkit-text-stroke: 2px  #000;
+  -webkit-text-stroke: 1.5px  #000;
   line-height: 60px;
   padding: 10px;
   margin-left: 10px;
@@ -1289,7 +1289,6 @@ a.main {
 
 }
 
-
 // first kiss & sex section
 
 .kiss-wrapper {
@@ -1308,7 +1307,6 @@ a.main {
 }
 
 .kiss-wrapper .col-7 {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1324,39 +1322,282 @@ a.main {
 .kiss-title-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 500px;
-  height: auto;
+  align-items: center;
+  width: 740px;
+  max-width: 480px;
+  max-height: 200px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
-  box-shadow: 15px 15px rgba(0,0,0,0.4);
+  box-shadow: 12px 12px rgba(0,0,0,0.4);
+  margin-bottom: 100px;
+  margin-top: 5px;
 }
 
 .kiss-title {
   font-size: 100px;
   color: #00CFA2;
   -webkit-text-stroke: 2px  #000;
-  line-height: 130px;
-  margin-bottom: 5px;
+  line-height: 120px;
 }
 
 .kiss-text-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 845px;
-  max-height: 260px;
+  align-items: center;
+  max-width: 850px;
+  max-height: 300px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
-  box-shadow: 15px 15px rgba(0,0,0,0.4);
+  box-shadow: 12px 12px rgba(0,0,0,0.4);
+  margin: 5px 5px;
 }
 
 .kiss-text {
-  font-size: 40px;
+  font-size: 38px;
   color: #00CFA2;
-  -webkit-text-stroke: 1px  #000;
-  line-height: 50px;
-  padding: 10px;
+  -webkit-text-stroke: 1.5px  #000;
+  line-height: 44px;
+  padding: 10px 30px;
+}
+
+@media (max-width: 1600px) {
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+    max-width: 380px;
+    max-height: 160px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    margin-bottom: 80px;
+    margin-top: 5px;
+  }
+  
+  .kiss-title {
+    font-size: 80px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 90px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 780px;
+    height: auto;
+    max-height: 380px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    margin: 10px 10px;
+  }
+  
+  .kiss-text {
+    font-size: 32px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 34px;
+    padding: 5px;
+    padding-top: 2px;
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+    max-width: 380px;
+    max-height: 160px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+    margin-top: 5px;
+  }
+  
+  .kiss-title {
+    font-size: 80px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 90px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 580px;
+    max-height: 200px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin: 5px 5px;
+  }
+  
+  .kiss-text {
+    font-size: 28px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 28px;
+    padding: 5px;
+    padding-top: 2px;
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    max-height: 100px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+  }
+  
+  .kiss-title {
+    font-size: 60px;
+    color: #00CFA2;
+    -webkit-text-stroke: 2px  #000;
+    line-height: 60px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+    max-height: 160px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin: 5px 5px;
+  }
+  
+  .kiss-text {
+    font-size: 22px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 22px;
+    padding: 5px;
+    padding-top: 2px;
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    max-height: 36px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+  }
+  
+  .kiss-title {
+    font-size: 30px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 32px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 360px;
+    max-height: 110px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin: 5px 5px;
+  }
+  
+  .kiss-text {
+    font-size: 16px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 16px;
+    padding: 5px;
+    padding-top: 2px;
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+
+  .kiss-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+    max-height: 32px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+  }
+  
+  .kiss-title {
+    font-size: 28px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 32px;
+  }
+  
+  .kiss-text-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 260px;
+    max-height: 80px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-top: 5px;
+  }
+  
+  .kiss-text {
+    font-size: 12px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 12px;
+    padding: 5px;
+    padding-top: 2px;
+    margin-left: 5px;
+  }
+
 }
 
 @media (max-width: 414px) {
