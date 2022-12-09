@@ -987,7 +987,8 @@ a.main {
 .first-date-title-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 600px;
+  width: 600px;
+  max-width: 500px;
   margin: 30px auto auto 30px;
   background-color: #fff;
   border: 5px solid #000;
@@ -1000,7 +1001,6 @@ a.main {
   color: #00CFA2;
   -webkit-text-stroke: 2px  #000;
   line-height: 130px;
-  margin-bottom: 5px;
 }
 
 .first-date-img img {
@@ -1016,12 +1016,12 @@ a.main {
   position: absolute;
   bottom: 30px;
   right: 30px;
-  max-width: 845px;
+  max-width: 580px;
   min-height: 260px;
   margin: 30px auto auto 30px;
   background-color: #fff;
   border: 5px solid #000;
-  border-radius: 60px;
+  border-radius: 30px;
   box-shadow: 15px 15px rgba(0,0,0,0.4);
 }
 
@@ -1029,8 +1029,8 @@ a.main {
   font-size: 48px;
   color: #00CFA2;
   -webkit-text-stroke: 1.5px  #000;
-  line-height: 60px;
-  padding: 10px;
+  line-height: 55px;
+  padding: 5px;
   margin-left: 10px;
 }
 
@@ -1039,12 +1039,13 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    max-width: 600px;
+    width: 600px;
+    max-width: 440px;
     margin: 30px auto auto 30px;
     background-color: #fff;
     border: 5px solid #000;
     border-radius: 60px;
-    box-shadow: 15px 15px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
   }
   
   .first-date-title {
@@ -1052,7 +1053,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 2px  #000;
     line-height: 110px;
-    margin-bottom: 5px;
   }
 
   .first-date-text-wrapper {
@@ -1061,12 +1061,12 @@ a.main {
     position: absolute;
     bottom: 30px;
     right: 30px;
-    max-width: 525px;
+    max-width: 435px;
     min-height: 260px;
     margin: 30px auto auto 30px;
     background-color: #fff;
     border: 5px solid #000;
-    border-radius: 60px;
+    border-radius: 30px;
     box-shadow: 10px 10px rgba(0,0,0,0.4);
   }
   
@@ -1075,7 +1075,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
     line-height: 45px;
-    padding: 10px;
     margin-left: 10px;
   }
 
@@ -1086,20 +1085,20 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    max-width: 500px;
+    width: 500px;
+    max-width: 320px;
     margin: 30px auto auto 30px;
     background-color: #fff;
     border: 5px solid #000;
     border-radius: 60px;
-    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    box-shadow: 7px 7px rgba(0,0,0,0.4);
   }
   
   .first-date-title {
     font-size: 65px;
     color: #00CFA2;
     -webkit-text-stroke: 2px  #000;
-    line-height: 90px;
-    margin-bottom: 5px;
+    line-height: 80px;
   }
 
   .first-date-text-wrapper {
@@ -1109,12 +1108,12 @@ a.main {
     bottom: 30px;
     right: 15px;
     max-width: 400px;
-    min-height: 210px;
+    min-height: 200px;
     margin: 30px auto auto 30px;
     background-color: #fff;
-    border: 5px solid #000;
-    border-radius: 60px;
-    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    border: 3px solid #000;
+    border-radius: 30px;
+    box-shadow: 7px 7px rgba(0,0,0,0.4);
   }
   
   .first-date-text {
@@ -1122,7 +1121,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
     line-height: 35px;
-    padding: 10px;
     margin-left: 10px;
   }
 
@@ -1141,20 +1139,20 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    max-width: 380px;
+    width: 380px;
+    max-width: 250px;
     margin: 30px auto auto 30px;
     background-color: #fff;
-    border: 5px solid #000;
+    border: 3px solid #000;
     border-radius: 60px;
-    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
   
   .first-date-title {
-    font-size: 55px;
+    font-size: 50px;
     color: #00CFA2;
     -webkit-text-stroke: 2px  #000;
     line-height: 60px;
-    margin-bottom: 5px;
   }
 
   .first-date-text-wrapper {
@@ -1162,22 +1160,22 @@ a.main {
     justify-content: center;
     position: absolute;
     bottom: 30px;
-    right: 5px;
-    max-width: 425px;
-    min-height: 210px;
+    right: 15px;
+    width: 425px;
+    max-width: 275px;
+    min-height: 170px;
     margin: 30px auto auto 30px;
     background-color: #fff;
-    border: 5px solid #000;
-    border-radius: 60px;
-    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    border: 3px solid #000;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
   
   .first-date-text {
-    font-size: 28px;
+    font-size: 22px;
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
-    line-height: 35px;
-    padding: 10px;
+    line-height: 26px;
     margin-left: 10px;
   }
 
@@ -1196,10 +1194,11 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    min-width: 180px;
+    width: 200px;
+    max-width: 200px;
     margin: 30px auto auto 30px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
@@ -1209,7 +1208,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 1.5px  #000;
     line-height: 50px;
-    margin-bottom: 5px;
   }
 
   .first-date-text-wrapper {
@@ -1218,12 +1216,13 @@ a.main {
     position: absolute;
     bottom: 10px;
     right: 5px;
-    max-width: 250px;
+    width: 250px;
+    max-width: 180px;
     min-height: 150px;
     margin: 30px 5px auto 30px;
     background-color: #fff;
     border: 2px solid #000;
-    border-radius: 60px;
+    border-radius: 30px;
     box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
   
@@ -1232,8 +1231,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 0.5px  #000;
     line-height: 20px;
-    padding: 10px;
-    margin-left: 10px;
   }
 
   .first-date-img img {
@@ -1250,7 +1247,7 @@ a.main {
     min-width: 130px;
     margin: 20px auto auto 20px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
@@ -1260,7 +1257,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
     line-height: 30px;
-    margin-bottom: 5px;
   }
 
   .first-date-text-wrapper {
@@ -1295,11 +1291,6 @@ a.main {
   display: flex;
   height: auto;
   background-color: #66132D;
-}
-
-.kiss-wrapper .container {
-  width: 100%;
-  padding: 0;
 }
 
 .kiss-wrapper .col-5 {
@@ -1566,7 +1557,7 @@ a.main {
     border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 3px 3px rgba(0,0,0,0.4);
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
   
   .kiss-title {
@@ -1585,7 +1576,6 @@ a.main {
     border: 2px solid #000;
     border-radius: 15px;
     box-shadow: 3px 3px rgba(0,0,0,0.4);
-    margin-top: 5px;
   }
   
   .kiss-text {
@@ -1606,12 +1596,13 @@ a.main {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 120px;
+    max-width: 110px;
     max-height: 27px;
     background-color: #fff;
     border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 5px;
   }
   
   .kiss-title {
@@ -1619,7 +1610,6 @@ a.main {
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
     line-height: 22px;
-    margin-bottom: 5px;
   }
   
   .kiss-text-wrapper {
@@ -1631,7 +1621,7 @@ a.main {
     border: 2px solid #000;
     border-radius: 15px;
     box-shadow: 3px 3px rgba(0,0,0,0.4);
-    margin-top: 5px;
+    margin-top: 0;
   }
   
   .kiss-text {
@@ -1646,11 +1636,24 @@ a.main {
 
 }
 
+// sex
+
 .sex-wrapper {
   display: flex;
   height: auto;
   background-color: #6B3F84;
   position: relative;
+}
+
+.sex-wrapper .col-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sex-wrapper .col-7 {
+  padding: 0;
 }
 
 .sex-img img {
@@ -1661,30 +1664,29 @@ a.main {
 .sex-title-wrapper {
   display: flex;
   justify-content: center;
-  min-width: 500px;
-  margin: 30px auto auto auto;
+  width: 500px;
+  max-width: 450px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
   box-shadow: 15px 15px rgba(0,0,0,0.4);
+  margin-bottom: 50px;
 }
 
 .sex-title {
   font-size: 100px;
   color: #00CFA2;
   -webkit-text-stroke: 2px  #000;
-  line-height: 130px;
-  margin-bottom: 5px;
+  line-height: 110px;
 }
 
 .sex-text-wrapper {
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 30%;
-  left: 12%;
+  width: 845px;
   max-width: 845px;
-  min-height: 72px;
+  height: 100px;
+  max-height: 72px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
@@ -1696,8 +1698,96 @@ a.main {
   color: #00CFA2;
   -webkit-text-stroke: 1px  #000;
   line-height: 50px;
-  padding: 10px;
-  margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+
+  .sex-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
+    height: 32px;
+    max-height: 32px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+  }
+  
+  .sex-title {
+    font-size: 28px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  
+  .sex-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 105px;
+    max-height: 25px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .sex-text {
+    font-size: 14px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 14px;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .sex-title-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 110px;
+    height: 27px;
+    max-height: 27px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+  }
+  
+  .sex-title {
+    font-size: 22px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 22px;
+  }
+  
+  .sex-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 105px;
+    max-height: 25px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .sex-text {
+    font-size: 14px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 14px;
+  }
+
 }
 
 // favourite place section
