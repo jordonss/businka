@@ -788,6 +788,9 @@ a.main {
 
 .start {
   position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .start-loaded {
@@ -797,6 +800,9 @@ a.main {
 .start-wrappper .container {
   margin: 0;
   padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .background-img {
@@ -840,6 +846,22 @@ a.main {
   margin: 250px 180px 30px 10px;
   width: 30%;
   height: auto;
+}
+
+@media (max-width: 1900px) {
+
+	.start-car {
+		display: flex;
+		justify-content: flex-end;
+		margin-left: 500px;
+	}
+
+	.start-car img {
+		margin: 250px 180px 30px 10px;
+		width: 30%;
+		height: auto;
+	}
+
 }
 
 @media (max-width: 1200px) {
@@ -944,7 +966,7 @@ a.main {
     font-size: 30px;
     color: #00CFA2;
     -webkit-text-stroke: 1px  #000;
-    line-height: 40px;
+    line-height: 30px;
     margin-bottom: 5px;
   }
   
@@ -1245,7 +1267,7 @@ a.main {
   .first-date-title-wrapper {
     display: flex;
     justify-content: center;
-    min-width: 130px;
+    max-width: 150px;
     margin: 20px auto auto 20px;
     background-color: #fff;
     border: 2px solid #000;
