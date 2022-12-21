@@ -20,7 +20,7 @@
 		"babel-plugin-module-resolver": "^4.1.0",
 		"babel-plugin-root-import": "^6.6.0",
 		"bootstrap": "^5.2.3",
-		"browser-sync": "^2.27.10",
+		"browser-sync": "^2.27.11",
 		"browsersync-ssi": "^0.2.4",
 		"cssnano": "^5.1.14",
 		"del": "^7.0.0",
@@ -35,9 +35,9 @@
 		"gulp-rsync": "0.0.9",
 		"gulp-sass": "^5.1.0",
 		"gulp-sass-glob": "^1.1.0",
-		"gulp-stylus": "^2.7.1",
-		"postcss": "^8.4.19",
-		"sass": "^1.56.1",
+		"gulp-stylus": "^3.0.0",
+		"postcss": "^8.4.20",
+		"sass": "^1.57.1",
 		"terser-webpack-plugin": "^5.3.6",
 		"webpack": "^5.75.0",
 		"webpack-stream": "^7.0.0"
@@ -45,6 +45,6 @@
 	"dependencies": {
 		"@glidejs/glide": "^3.6.0",
 		"aos": "^2.3.4",
-		"jquery": "^3.6.1"
+		"jquery": "^3.6.3"
 	}
 }
