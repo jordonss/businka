@@ -1676,6 +1676,9 @@ a.main {
 }
 
 .sex-wrapper .col-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -1910,6 +1913,12 @@ a.main {
 
 @media (max-width: 414px) {
 
+  .sex-img img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+  }
+
   .sex-title-wrapper {
     display: flex;
     justify-content: center;
@@ -1921,7 +1930,7 @@ a.main {
     border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 3px 3px rgba(0,0,0,0.4);
-    margin-bottom: 15px;
+    margin-bottom: 17px;
   }
   
   .sex-title {
@@ -1940,7 +1949,7 @@ a.main {
     background-color: #fff;
     border: 2px solid #000;
     border-radius: 60px;
-    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
   }
   
   .sex-text {
@@ -1956,19 +1965,26 @@ a.main {
 
 .place {
   background-image: url('../images/src/kartoteka.png');
-  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.place-wrapper .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .place-title-wrapper {
   display: flex;
   justify-content: center;
+  width: 500px;
   max-width: 500px;
   margin: 30px auto auto auto;
   background-color: #fff;
@@ -1982,17 +1998,14 @@ a.main {
   color: #00CFA2;
   -webkit-text-stroke: 2px  #000;
   line-height: 100px;
-  padding: 10px;
-  margin-left: 10px;
 }
 
 .place-text-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 520px;
+  margin-top: 580px;
   margin-bottom: 30px;
   max-width: 845px;
-  min-height: 72px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
@@ -2002,11 +2015,58 @@ a.main {
 .place-text {
   font-size: 40px;
   color: #00CFA2;
-  -webkit-text-stroke: 1px  #000;
+  -webkit-text-stroke: 0.5px  #000;
   line-height: 50px;
-  padding: 10px;
-  margin-left: 10px;
 }
+
+@media (max-width: 414px) {
+
+  .place-title-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    max-width: 120px;
+    margin: 10px auto auto auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+  }
+  
+  .place-title {
+    font-size: 22px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 28px;
+  }
+  
+  .place-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 10px;
+    height: 200px;
+    max-height: 65px;
+    width: 250px;
+    max-width: 250px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+  }
+  
+  .place-text {
+    font-size: 14px;
+    color: #00CFA2;
+    -webkit-text-stroke: 0.5px  #000;
+    line-height: 16px;
+    padding: 5px;
+  }
+  
+}
+
+// love nest with carousel section
 
 .nest {
   background-color: #89EBCD;
@@ -2019,8 +2079,6 @@ a.main {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-// love nest with carousel section
 
 .nest-wrapper {
   width: 90%;
