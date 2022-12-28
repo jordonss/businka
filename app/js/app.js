@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     startAt: 2,
     focusAt: "center",
     breakpoints: {
-      600: { perView: 1 },
+      800: { perView: 1 },
       1200: { perView: 3 }
     }
   }).mount();

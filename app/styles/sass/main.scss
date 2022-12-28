@@ -2297,7 +2297,7 @@ a.main {
     margin-top: 160px;
     margin-bottom: 10px;
     height: 200px;
-    max-height: 65px;
+    max-height: 75px;
     width: 250px;
     max-width: 250px;
     background-color: #fff;
@@ -2323,16 +2323,17 @@ a.main {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .nest-wrapper {
+  display: flex;
   width: 90%;
   height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .nest-title-wrapper {
@@ -2340,7 +2341,8 @@ a.main {
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  margin: 30px auto auto auto;
+  margin: auto;
+  margin-top: 20px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
@@ -2357,9 +2359,11 @@ a.main {
 .nest-text-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 1100px;
-  margin: 30px auto;
-  min-height: 72px;
+  align-items: center;
+  text-align: center;
+  // max-width: 1100px;
+  margin-bottom: 10px;
+  margin-right: 0px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 60px;
@@ -2372,7 +2376,6 @@ a.main {
   -webkit-text-stroke: 1px  #000;
   line-height: 50px;
   padding: 10px;
-  margin-left: 10px;
 }
 
 // carousel
@@ -2436,13 +2439,13 @@ a.main {
   filter: invert(59%) sepia(67%) saturate(2307%) hue-rotate(125deg) brightness(98%) contrast(101%);
 }
 
-@media (max-width: 414px) {
+@media (max-width: 575.98px) {
 
   .nest-title-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 240px;
-    margin: 30px auto auto auto;
     background-color: #fff;
     border: 3px solid #000;
     border-radius: 60px;
@@ -2459,13 +2462,15 @@ a.main {
   .nest-text-wrapper {
     display: flex;
     justify-content: center;
-    max-width: 1100px;
-    margin: 10px auto;
+    width: 100%;
     min-height: 72px;
+    margin-top: 10px;
+    margin-right: 0px;
     background-color: #fff;
-    border: 5px solid #000;
-    border-radius: 60px;
+    border: 3px solid #000;
+    border-radius: 30px;
     box-shadow: 5px 5px rgba(0,0,0,0.4);
+    text-align: center;
   }
   
   .nest-text {
@@ -2474,11 +2479,101 @@ a.main {
     -webkit-text-stroke: 1px  #000;
     line-height: 26px;
     padding: 10px;
-    margin-left: 10px;
   }
 
   .glide__slides {
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .glide__slide img {
+    border: 2px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 275px;
+    max-height: 370px;
+    height: auto;
+    margin-right: 10px;
+    transition:  1s ease-out
+  }
+
+  .glide__arrows img {
+    height: 30px;
+    color: #fff;
+  }
+
+  .glide__arrow--right {
+    right: -30px;
+  }
+  
+  .glide__arrow--left {
+    left: -30px;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .nest {
+    background-color: #89EBCD;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .nest-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 240px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 60px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+  
+  .nest-title {
+    font-size: 44px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 44px;
+  }
+  
+  .nest-text-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 72px;
+    // margin-top: 10px;
+    margin-right: 0px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+  
+  .nest-text {
+    font-size: 26px;
+    color: #00CFA2;
+    -webkit-text-stroke: 1px  #000;
+    line-height: 26px;
+    padding: 10px;
+  }
+
+  .glide__slides {
+    height: auto;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -2489,14 +2584,24 @@ a.main {
     border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 5px 5px rgba(0,0,0,0.4);
-    width: 65%;
+    width: 100%;
     height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
     transition:  1s ease-out
   }
 
   .glide__arrows img {
     height: 30px;
     color: #fff;
+  }
+
+  .glide__arrow--right {
+    right: -30px;
+  }
+  
+  .glide__arrow--left {
+    left: -30px;
   }
 
 }
