@@ -74,7 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
     perView: 3,
     startAt: 2,
     focusAt: "center",
+    breakpoints: {
+      600: { perView: 1 },
+      1200: { perView: 3 }
+    }
   }).mount();
+
+
 
   // window.onload = function () {
   //   document.body.classList.add("loaded_hiding");
