@@ -71,12 +71,17 @@ document.addEventListener("DOMContentLoaded", () => {
   AOS.init();
 
   new Glide(".glide", {
+    type: 'carousel',
+    gap: 30,
     perView: 3,
     startAt: 2,
     focusAt: "center",
+    animationDuration: 600,
+    animationTimingFunc: 'linear',
     breakpoints: {
-      800: { perView: 1 },
-      1200: { perView: 3 }
+      767: { perView: 1 },
+      1200: { perView: 3 },
+      2000: { gap: 100 },
     }
   }).mount();
 
