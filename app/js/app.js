@@ -72,16 +72,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new Glide(".glide", {
     type: 'carousel',
-    gap: 30,
+    // autoplay: 2500,
     perView: 3,
-    startAt: 2,
-    focusAt: "center",
-    animationDuration: 600,
-    animationTimingFunc: 'linear',
+    gap: 30,
+    // animationDuration: 3100,
     breakpoints: {
       767: { perView: 1 },
       1200: { perView: 3 },
-      2000: { gap: 100 },
+      2000: { gap: 30 },
     }
   }).mount();
 
