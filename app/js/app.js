@@ -83,15 +83,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }).mount();
 
-
-
-  // window.onload = function () {
-  //   document.body.classList.add("loaded_hiding");
-  //   window.setTimeout(function () {
-  //     document.body.classList.add("loaded");
-  //     document.body.classList.remove("loaded_hiding");
-  //   }, 8000);
-  // };
+  window.onload = function () {
+    document.body.classList.add("loaded_hiding");
+    window.setTimeout(function () {
+      document.body.classList.add("loaded");
+      document.body.classList.remove("loaded_hiding");
+    }, 8000);
+  };
 
   let welcome = document.getElementById("wrap");
   let navigation = document.getElementById("navi");
@@ -113,4 +111,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // window.addEventListener('scroll', function () {
   //   car.style.scale = 120 - +window.pageYOffset/30+'%';
   // })
+  
 });

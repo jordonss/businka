@@ -24,7 +24,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 1001;
+  z-index: 9999 ;
 }
 
 .type_text {
@@ -82,6 +82,7 @@
   height: auto;
   background-attachment: fixed;
   background-size: cover;
+  z-index: 1;
 }
 
 //flying hearts
@@ -331,6 +332,36 @@ a.main {
 
 //welcome title
 
+.push-button {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.push-button-wrapper {
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 60px;
+  box-shadow: 15px 15px rgba(0,0,0,0.4);
+  cursor: pointer;
+  z-index: 9999;
+  width: 300px;
+  transform: rotate(-30deg)
+}
+
+.push-btn-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "raisonne";
+  font-size: 50px;
+  color: #FFA5A5;
+  -webkit-text-stroke: 2px  #000;
+  line-height: 50px;
+  text-shadow: 5px 5px #000;
+  min-width: 130px;
+}
+
 .welcome-start {
   display: flex;
   justify-content: center;
@@ -427,6 +458,7 @@ a.main {
     display: flex;
     transform: translate(0,-185px);
     transition: 5s ease;
+    animation-delay: 1s;
     animation-duration: 5000;
     margin: auto;
   }
@@ -503,6 +535,7 @@ a.main {
     margin-bottom: 5px;
     -webkit-text-stroke: 2px  #000;
     text-shadow: 3px 3px #000;
+    z-index: 100;
   }
 
   .welcome-wrap {
@@ -515,6 +548,7 @@ a.main {
     margin-top: 0;
     border: 3px solid #000;
     border-radius: 40px;
+    z-index: 100;
   }
 
   .welcome-animate {
@@ -539,7 +573,7 @@ a.main {
   margin-bottom: 30px;
 }
 
-.fp-opacity{
+.fp-opacity {
   display: flex;
   opacity: 1;
   transition: all 1.5s ease-out
