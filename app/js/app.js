@@ -95,10 +95,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let navigation = document.getElementById("navi");
   let fpContent = document.getElementById("fp-content");
   let start = document.getElementById("startt");
+  let push = document.getElementById('pbw')
   // let car = document.getElementById("startCar");
 
   welcome.addEventListener("click", function () {
     welcome.classList.add("welcome-animate");
+    push.classList.add('roll-out-left');
     setTimeout(function () {
       navigation.classList.add("navig");
       fpContent.classList.add("fp-opacity");
