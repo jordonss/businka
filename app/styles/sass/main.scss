@@ -189,6 +189,13 @@ a {
   -webkit-text-stroke: 0.5px #000;
   font-size: 20px;
   text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(0, 155, 187);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 155, 187);
 }
 
 a.main {
@@ -197,6 +204,8 @@ a.main {
   line-height: 45px;
   text-transform: uppercase;
   padding: 5px;
+  text-decoration: none;
+  color: rgb(0, 155, 187);
 }
 
 .btn_gallery {
@@ -216,7 +225,61 @@ a.main {
   border: 3px solid #000;
   border-radius: 60px;
   width: 250px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: none;
 }
+
+.btn_businka .main {
+  position: relative;
+  z-index: 9999;
+}
+
+.btn_businka .main:hover {
+  position: relative;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.btn_businka:hover {
+    color: #e6e6e6; 
+  }
+  .btn_businka::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, border 0.3s;
+    box-sizing: border-box; 
+  }
+  .btn_businka:hover::before {
+    opacity: 0; 
+  }
+  .btn_businka::after {
+    content: "";
+    position: absolute;
+    top: -42px;
+    left: 0;
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    border-color: transparent;
+    border-radius: 50%;
+    transform: translate(-10px, -70px) scale(0.1);
+    opacity: 0;
+    z-index: 1;
+    transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+    box-sizing: border-box; 
+  }
+  .btn_businka:hover::after {
+    opacity: 1;
+    transform-origin: center;
+    transform: scale(1) translate(-10px, -70px);
+    box-sizing: border-box; 
+  }
+
 
 @media (max-width: 992px) {
   .nav {
@@ -346,6 +409,21 @@ a.main {
   width: 220px;
   transform: rotate(-30deg);
   position: relative;
+  animation: pulsed 2s infinite;
+}
+
+@keyframes pulsed {
+  0% {
+    transform: rotate(-30deg) scale(1);
+  }
+
+  70% {
+    transform: rotate(-30deg) scale(1.10);
+  }
+
+  100% {
+    transform: rotate(-30deg) scale(1);
+  }
 }
 
 .push-button-wrapper img {
