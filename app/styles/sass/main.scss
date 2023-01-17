@@ -212,13 +212,121 @@ a.main {
   background-color: #b5e5cf;
   border: 3px solid #000;
   border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.btn_gallery .gal {
+  position: relative;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.btn_gallery .gal:hover {
+  position: relative;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.btn_gallery:hover {
+  color: #e6e6e6; 
+}
+.btn_gallery::before {
+  content: "";
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.7s, border 0.3s;
+  box-sizing: border-box; 
+}
+.btn_gallery:hover::before {
+  opacity: 0; 
+}
+.btn_gallery::after {
+  content: "";
+  position: absolute;
+  top: -42px;
+  left: -74px;
+  width: 260px;
+  height: 260px;
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 50%;
+  transform: translate(-10px, -70px) scale(0.1);
+  opacity: 0;
+  z-index: 1;
+  transition: transform 0.4s, opacity 0.5s, background-color 0.5s;
+  box-sizing: border-box; 
+}
+.btn_gallery:hover::after {
+  opacity: 1;
+  transform-origin: center;
+  transform: scale(1) translate(-10px, -70px);
+  box-sizing: border-box; 
 }
 
 .btn_moments {
   background-color: #b5e5cf;
   border: 3px solid #000;
   border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: none;
 }
+
+.btn_moments .mom {
+  position: relative;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.btn_moments .mom:hover {
+  position: relative;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.btn_moments:hover {
+    color: #e6e6e6; 
+  }
+  .btn_moments::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.7s, border 0.3s;
+    box-sizing: border-box; 
+  }
+  .btn_moments:hover::before {
+    opacity: 0; 
+  }
+  .btn_moments::after {
+    content: "";
+    position: absolute;
+    top: -42px;
+    left: -68px;
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    border-color: transparent;
+    border-radius: 50%;
+    transform: translate(-10px, -70px) scale(0.1);
+    opacity: 0;
+    z-index: 1;
+    transition: transform 0.4s, opacity 0.5s, background-color 0.5s;
+    box-sizing: border-box; 
+  }
+  .btn_moments:hover::after {
+    opacity: 1;
+    transform-origin: center;
+    transform: scale(1) translate(-10px, -70px);
+    box-sizing: border-box; 
+  }
 
 .btn_businka {
   background-color: #b5e5cf;
