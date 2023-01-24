@@ -96,6 +96,12 @@ document.addEventListener("DOMContentLoaded", () => {
     x: 50,
   });
 
+  let car = document.getElementById('car');
+  window.addEventListener('scroll', function() {
+    let value = window.scrollY;
+    car.style.marginTop = value - 1 + 'px';
+  })
+
   window.onload = function () {
     document.body.classList.add("loaded_hiding");
     window.setTimeout(function () {
