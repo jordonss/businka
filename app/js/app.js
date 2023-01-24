@@ -2,6 +2,9 @@
 // import '~/app/libs/mmenu/dist/mmenu.js'
 import AOS from "aos";
 import Glide from "@glidejs/glide";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger.js";
+
 
 document.addEventListener("DOMContentLoaded", () => {
   // var love = setInterval(function () {
@@ -82,6 +85,16 @@ document.addEventListener("DOMContentLoaded", () => {
       1200: { perView: 3 },
     }
   }).mount();
+
+
+  gsap.registerPlugin(ScrollTrigger);
+  
+  gsap.from("#car", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    x: 50,
+  });
 
   window.onload = function () {
     document.body.classList.add("loaded_hiding");
