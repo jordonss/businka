@@ -89,18 +89,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   gsap.registerPlugin(ScrollTrigger);
   
-  gsap.from("#car", {
+  gsap.to("#car", {
     scrollTrigger: {
       scrub: true,
     },
-    x: 50,
+    y: -900,
+    x: 500,
   });
-
-  let car = document.getElementById('car');
-  window.addEventListener('scroll', function() {
-    let value = window.scrollY;
-    car.style.marginTop = value - 1 + 'px';
-  })
 
   window.onload = function () {
     document.body.classList.add("loaded_hiding");
