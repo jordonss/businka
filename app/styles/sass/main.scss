@@ -1985,6 +1985,11 @@ a.main {
 }
 
 @media (max-width: 992px) {
+
+  .start-wrapper .row {
+    width: 100%;
+  }
+
   .start-text {
     font-size: 54px;
     color: #00cfa2;
@@ -1998,7 +2003,7 @@ a.main {
     align-items: center;
     max-width: 600px;
     max-height: 78px;
-    margin: 30px auto auto 30px;
+    margin: 30px auto auto 0;
     background-color: #fff;
     border: 3px solid #000;
     border-radius: 60px;
@@ -2008,11 +2013,12 @@ a.main {
   .start-car {
     display: flex;
     justify-content: flex-end;
-    margin-left: 500px;
+    // margin-left: 500px;
+    margin-left: 0;
   }
 
   .start-car img {
-    margin: 150px 180px 30px 10px;
+    margin: 102px 234px 10px 10px;
     width: 100%;
     height: auto;
   }
@@ -2080,6 +2086,12 @@ a.main {
   }
 }
 
+.start-car img {
+  margin: 150px 162px -20px 10px;
+  width: 150px;
+  height: auto;
+}
+
 @media (max-width: 414px) {
   .start-text {
     font-size: 30px;
@@ -2103,7 +2115,7 @@ a.main {
   }
 
   .start-car img {
-    margin: 150px 100px 30px 10px;
+    margin: 60px 130px -12px 10px;
     width: 150px;
     height: auto;
   }
