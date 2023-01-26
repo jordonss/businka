@@ -89,13 +89,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   gsap.registerPlugin(ScrollTrigger);
   
-  // gsap.to("#car", {
-  //   scrollTrigger: {
-  //     scrub: true,
-  //   },
-  //   y: -900,
-  //   x: 500,
-  // });
+  gsap.to("#car", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    y: -900,
+    x: 500,
+  });
 
   let mm = gsap.matchMedia();
 
@@ -135,17 +135,41 @@ document.addEventListener("DOMContentLoaded", () => {
   
   });
 
-  // mm.add("(max-width: 992px)", () => {
+  mm.add("(max-width: 992px)", () => {
 
-  //   gsap.to("#car", {
-  //     scrollTrigger: {
-  //       scrub: true,
-  //     },
-  //     y: -220,
-  //     x: 220,
-  //   });
+    gsap.to("#car", {
+      scrollTrigger: {
+        scrub: true,
+      },
+      y: -220,
+      x: 220,
+    });
   
-  // });
+  });
+
+  mm.add("(max-width: 1200px)", () => {
+
+    gsap.to("#car", {
+      scrollTrigger: {
+        scrub: true,
+      },
+      y: -220,
+      x: 220,
+    });
+  
+  });
+
+  mm.add("(max-width: 1900px)", () => {
+
+    gsap.to("#car", {
+      scrollTrigger: {
+        scrub: true,
+      },
+      y: -220,
+      x: 320,
+    });
+  
+  });
 
   window.onload = function () {
     document.body.classList.add("loaded_hiding");
