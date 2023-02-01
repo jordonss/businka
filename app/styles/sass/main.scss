@@ -779,20 +779,30 @@ a.main {
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 575.98px) {
   .nav .btn_gallery {
     margin-right: 10px;
     border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
   }
 
   .nav .btn_businka {
     margin-right: 10px;
     border: 2px solid #000;
     width: 150px;
+    display: flex;
+    justify-content: center;
   }
 
   .btn_moments {
     border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
   }
 
   a {
@@ -801,6 +811,7 @@ a.main {
     -webkit-text-stroke: 0.5px #000;
     font-size: 15px;
     text-transform: uppercase;
+    line-height: 15px;
   }
 
   a.main {
@@ -808,7 +819,7 @@ a.main {
     -webkit-text-stroke: 1px #000;
     line-height: 28px;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 2px;
   }
 }
 
@@ -819,32 +830,39 @@ a.main {
 
   .btn_businka {
     border: 2px solid #000;
-    width: 120px;
-    max-width: 120px;
+    width: 110px;
+    max-width: 110px;
+    display: flex;
+    justify-content: center;
   }
 
   .btn_moments {
     border: 2px solid #000;
+    display: flex;
+    justify-content: center;
   }
 
   .btn_gallery {
     border: 2px solid #000;
+    display: flex;
+    justify-content: center;
   }
 
   a {
     text-decoration: none;
     color: #009bbb;
     -webkit-text-stroke: 0.5px #000;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
+    line-height: 16px;
   }
 
   a.main {
     font-size: 20px;
     -webkit-text-stroke: 0.75px #000;
-    line-height: 30px;
+    line-height: 20px;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 2px;
   }
 }
 
@@ -2090,8 +2108,6 @@ a.main {
 
 }
 
-
-
 @media (max-width: 414px) {
   .start-text {
     font-size: 30px;
@@ -2418,7 +2434,7 @@ a.main {
     bottom: 10px;
     right: 5px;
     max-width: 150px;
-    min-height: 150px;
+    min-height: 120px;
     margin: 30px 5px auto 30px;
     background-color: #fff;
     border: 2px solid #000;
@@ -2427,12 +2443,12 @@ a.main {
   }
 
   .first-date-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #00cfa2;
     -webkit-text-stroke: 0.5px #000;
-    line-height: 20px;
+    line-height: 18px;
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 }
 
@@ -3351,7 +3367,7 @@ a.main {
     margin-top: 160px;
     margin-bottom: 10px;
     height: 200px;
-    max-height: 75px;
+    max-height: 65px;
     width: 250px;
     max-width: 250px;
     background-color: #fff;
