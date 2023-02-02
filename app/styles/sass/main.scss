@@ -6,6 +6,8 @@
 @import "./node_modules/aos/src/sass/aos.scss";
 @import "./node_modules/@glidejs/glide/src/assets/sass/glide.core";
 @import "./node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "./assets/css/fontawesome.css";
+@import "./assets/css/regular.css";
 
 @font-face {
   font-family: "raisonne";
@@ -1888,6 +1890,15 @@ a.main {
     margin-right: 0;
     margin-top: 10px;
   }
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: transparent;
+  border: none;
 }
 
 // start section
