@@ -70,8 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
   //   });
   // }, 500);
 
-  
-
   AOS.init();
 
   new Glide(".glide", {
@@ -185,8 +183,13 @@ document.addEventListener("DOMContentLoaded", () => {
       start.classList.add("start-loaded");
     }, 4500);
   });
+});
 
-  // window.addEventListener('scroll', function () {
-  //   car.style.scale = 120 - +window.pageYOffset/30+'%';
-  // })
+const btnScrollToTop = document.querySelector(".btn");
+
+btnScrollToTop.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });

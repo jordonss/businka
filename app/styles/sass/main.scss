@@ -3,11 +3,11 @@
 
 @import "config";
 @import "blocks/**/*";
-@import "./node_modules/aos/src/sass/aos.scss";
-@import "./node_modules/@glidejs/glide/src/assets/sass/glide.core";
-@import "./node_modules/@glidejs/glide/src/assets/sass/glide.theme";
-@import "./assets/css/fontawesome.css";
-@import "./assets/css/regular.css";
+// @import "./node_modules/aos/src/sass/aos.scss";
+// @import "./node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// @import "./node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+// @import "./assets/css/fontawesome.css";
+// @import "./assets/css/regular.css";
 
 @font-face {
   font-family: "raisonne";
@@ -1896,10 +1896,19 @@ a.main {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none;
+  display: block;
   background: transparent;
   border: none;
 }
+
+.fa-circle-up {
+  color: white;
+}
+
+.fa-regular {
+  color: white;
+}
+
 
 // start section
 
@@ -1938,13 +1947,15 @@ a.main {
   color: #00cfa2;
   -webkit-text-stroke: 2px #000;
   line-height: 88px;
+  padding-bottom: 10px;
 }
 
 .start-text-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 960px;
-  height: 110px;
+  align-items: center;
+  max-width: 1000px;
+  height: 120px;
   max-height: 120px;
   margin-left: 30px;
   margin-top: 20px;
@@ -2022,6 +2033,8 @@ a.main {
     color: #00cfa2;
     -webkit-text-stroke: 1.5px #000;
     line-height: 48px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
   }
 
   .start-text-wrapper {
@@ -2060,14 +2073,16 @@ a.main {
     color: #00cfa2;
     -webkit-text-stroke: 1px #000;
     line-height: 38px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    padding-bottom: 7px;
   }
 
   .start-text-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 420px;
+    width: 430px;
+    max-width: 430px;
     max-height: 50px;
     margin-top: 20px;
     margin-left: 0px;
@@ -2096,6 +2111,8 @@ a.main {
     color: #00cfa2;
     -webkit-text-stroke: 1px #000;
     line-height: 36px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
   }
 
   .start-text-wrapper {
@@ -2125,7 +2142,8 @@ a.main {
     color: #00cfa2;
     -webkit-text-stroke: 1px #000;
     line-height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
   }
 
   .start-text-wrapper {
@@ -2136,7 +2154,7 @@ a.main {
     margin-top: 10px;
     margin-left: 0px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 60px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
   }
@@ -3136,7 +3154,7 @@ a.main {
   font-size: 88px;
   color: #00cfa2;
   -webkit-text-stroke: 2px #000;
-  line-height: 88px;
+  line-height: 92px;
   margin-bottom: 12px;
 }
 
@@ -3146,12 +3164,12 @@ a.main {
   align-items: center;
   margin-top: 580px;
   margin-bottom: 30px;
-  max-width: 745px;
+  max-width: 760px;
   height: 200px;
   max-height: 160px;
   background-color: #fff;
   border: 3px solid #000;
-  border-radius: 60px;
+  border-radius: 40px;
   box-shadow: 15px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -3160,7 +3178,7 @@ a.main {
   color: #00cfa2;
   -webkit-text-stroke: 1px #000;
   line-height: 42px;
-  padding: 5px;
+  padding: 10px;
   margin-left: 12px;
 }
 
@@ -3182,8 +3200,9 @@ a.main {
     font-size: 66px;
     color: #00cfa2;
     -webkit-text-stroke: 1.5px #000;
-    line-height: 66px;
-    margin-bottom: 8px;
+    line-height: 72px;
+    margin-bottom: 0;
+    padding-bottom: 7px;
   }
 
   .place-text-wrapper {
@@ -3230,8 +3249,9 @@ a.main {
     font-size: 54px;
     color: #00cfa2;
     -webkit-text-stroke: 1.5px #000;
-    line-height: 66px;
+    line-height: 60px;
     margin-bottom: 0;
+    padding-bottom: 7px;
   }
 
   .place-text-wrapper {
@@ -3265,7 +3285,7 @@ a.main {
     display: flex;
     justify-content: center;
     width: 240px;
-    max-width: 160px;
+    max-width: 180px;
     margin: 10px auto auto auto;
     background-color: #fff;
     border: 2px solid #000;
@@ -3277,8 +3297,8 @@ a.main {
     font-size: 32px;
     color: #00cfa2;
     -webkit-text-stroke: 1px #000;
-    line-height: 34px;
-    margin-bottom: 3px;
+    line-height: 32px;
+    margin-bottom: 0;
   }
 
   .place-text-wrapper {
@@ -3369,6 +3389,8 @@ a.main {
     color: #00cfa2;
     -webkit-text-stroke: 1px #000;
     line-height: 28px;
+    margin-bottom: 0;
+    padding-bottom: 3px;
   }
 
   .place-text-wrapper {
