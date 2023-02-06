@@ -185,11 +185,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// const btnScrollToTop = document.querySelector(".btn");
+const btnScrollToTop = document.querySelector(".btn");
 
-// btnScrollToTop.addEventListener("click", function () {
-//   window.scrollTo({
-//     top: 0,
-//     behavior: "smooth",
-//   });
-// });
+btnScrollToTop.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
