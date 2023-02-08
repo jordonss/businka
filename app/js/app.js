@@ -91,8 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollTrigger: {
       scrub: true,
     },
-    y: -900,
-    x: 500,
+    y: -300,
+    x: 250,
   });
 
   let mm = gsap.matchMedia();
@@ -157,6 +157,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  mm.revert();
+
   window.onload = function () {
     document.body.classList.add("loaded_hiding");
     window.setTimeout(function () {
@@ -170,7 +172,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let fpContent = document.getElementById("fp-content");
   let start = document.getElementById("startt");
   let push = document.getElementById("pbw");
-  // let car = document.getElementById("startCar");
 
   welcome.addEventListener("click", function () {
     welcome.classList.add("welcome-animate");
@@ -193,3 +194,33 @@ btnScrollToTop.addEventListener("click", function () {
     behavior: "smooth",
   });
 });
+
+const MagicBtn = document.querySelector(".btn_moments");
+
+MagicBtn.addEventListener("click", function () {
+  document.getElementById("gallery-id").scrollIntoView();
+});
+
+const GalleryBtn = document.querySelector(".btn_gallery");
+
+GalleryBtn.addEventListener("click", function () {
+  document.getElementById("nest-id").scrollIntoView();
+});
+
+const progressBar = document.getElementById("progressbar");
+progressBar.style.height = 1 + "%";
+
+window.onscroll = () => {
+	const scroll = document.documentElement.scrollTop;
+	const height =
+		document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	let scrolled = (scroll / height) * 100;
+
+	if (scrolled <= 1) {
+		progressBar.style.height = 1 + "%";
+	} else if (scrolled >= 2 && scrolled <= 99.9) {
+		progressBar.style.height = scrolled + "%";
+	} else if (scrolled === 100) {
+		progressBar.style.height = scrolled + "%";
+	}
+};

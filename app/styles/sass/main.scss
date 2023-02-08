@@ -14,7 +14,33 @@
   src: url("/../fonts/Raisonne\ DemiBold.woff2");
 }
 
+// body::-webkit-scrollbar {
+//     display: none;  /* Safari and Chrome */
+// }
+
 //preloader
+
+.progress-container {
+	position: fixed;
+  top: 40px;
+	right: 10px;
+	width: 8px;
+	height: 90%;
+	border-radius: 2px;
+	margin: auto;
+  z-index: 9999;
+}
+
+.progress-bar {
+	width: 8px;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.progress-bar:before {
+	height: 1%;
+}
+
 
 .preloader {
   background-color: #ffa5a5;
@@ -1971,8 +1997,8 @@ a.main {
 }
 
 .start-car img {
-  margin: 424px 246px -134px 10px;
-  width: 30%;
+  margin: 424px 168px -8px 10px;
+  width: 40%;
   height: auto;
 }
 
@@ -2057,8 +2083,8 @@ a.main {
   }
 
   .start-car img {
-    margin: 152px 195px -40px 10px;
-    width: 50%;
+    margin: 324px 177px -55px 10px;
+    width: 40%;
     height: auto;
   }
 }
@@ -2099,8 +2125,8 @@ a.main {
   }
 
   .start-car img {
-    margin: 180px 160px -30px 10px;
-    width: 200px;
+    margin: 180px 120px -30px 10px;
+    width: 40%;
     height: auto;
   }
 }
@@ -2129,7 +2155,7 @@ a.main {
   }
 
   .start-car img {
-    margin: 150px 162px -20px 10px;
+    margin: 150px 230px -20px 10px;
     width: 150px;
     height: auto;
   }
