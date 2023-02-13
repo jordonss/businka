@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.setTimeout(function () {
       document.body.classList.add("loaded");
       document.body.classList.remove("loaded_hiding");
-    }, 8000);
+    }, 6500);
   };
 
   let welcome = document.getElementById("wrap");
